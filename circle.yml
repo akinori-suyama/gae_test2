@@ -6,7 +6,7 @@ machine:
     version: pypy-2.2.1
 dependencies:
   pre:
-    - pip install PIL --allow-external PIL --allow-unverified PIL
+    - pip install
 test:
   override:
     - exit 0
